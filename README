@@ -1,0 +1,9 @@
+IRC bot built almost entirely from gpt, that integrates with the 3.5-turbo api.
+
+It's definitely not perfect and there is a bit of weirdness (it also has a habit of doing major code changes when you ask for simple things) but it took less than an hour.
+
+Instructions:
+
+docker build -t openai-bot .
+
+podman run --env OPENAI_API_KEY="<your_api_key" openai-bot:latest --server your-servername.com --port 5000 --nickname yourbotname --channel \#your_channel
