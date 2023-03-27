@@ -2,6 +2,9 @@ IRC bot built almost entirely from gpt, that integrates with the 3.5-turbo api.
 
 It's definitely not perfect and there is a bit of weirdness (it also has a habit of doing major code changes when you ask for simple things) but it took less than an hour.
 
+It also constructed the dockerfile include in this repo.
+
+
 Instructions:
 
 docker build -t openai-bot .
